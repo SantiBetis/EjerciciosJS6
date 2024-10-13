@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario de Contacto</title>
+
+</head>
+<body>
+    <div class="form-container">
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" placeholder="Escribe el asunto...">
+        <span id="asunto-error" class="error-message"></span>
+
+        <label for="cc">CC</label>
+        <input type="text" id="cc" placeholder="Correo CC...">
+        <span id="cc-error" class="error-message"></span>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje..." rows="5"></textarea>
+        <span id="mensaje-error" class="error-message"></span>
+
+        <button type="submit">Enviar</button>
+    </div>
+
+    <script src="js/ejercicio.js"></script>
+</body>
+</html>
