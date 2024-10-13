@@ -1,0 +1,38 @@
+.input-error {
+    border: 2px solid red;
+}
+
+.input-correct {
+    border: 2px solid green;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
